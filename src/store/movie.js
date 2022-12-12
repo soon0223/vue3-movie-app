@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { reject } from 'lodash'
 import _uniqBy from 'lodash/uniqBy'
 
 const _defaultMessage = 'Search for the movie title!'
@@ -83,7 +82,8 @@ export default {
                     loading: false
                 })
             }
-        } , async searchMovieWithId ({state, commit}, payload) {
+        }, 
+        async searchMovieWithId ({state, commit}, payload) {
             if(state.loading) return
             commit('updateState', {
                 loading: true
@@ -91,7 +91,6 @@ export default {
 
             try {
                 const res = await _fetchMovie(payload)
-                console.log(res.data)
                 commit('updateState', {
                     theMovie: res.data
                 })
