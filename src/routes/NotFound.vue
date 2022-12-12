@@ -1,0 +1,33 @@
+<template>
+    <div class="not-found">
+        <div class="status">
+            404
+        </div>
+        <div class="message">
+            Page Not Found!
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="scss" scoped>
+.not-found {
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Oswald', serif;
+    padding: 150px 20px;
+    .status {
+        font-size: 160px;
+        color: $primary;
+    }
+    .message {
+        padding-top: 20px;
+        font-size: 50px;
+    }
+}
+</style>
