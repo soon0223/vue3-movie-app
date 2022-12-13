@@ -54,10 +54,10 @@ export default {
         width: 250px;
         height: 250px;
         margin: 40px auto 20px;
-        border: 7px solid $primary;
+        border: 5px solid $primary;
         border-radius: 50%;
         box-sizing: border-box;
-        background-color: $gray-200;
+        background-color: #fff;
         img {
             width: 100%;
         }
