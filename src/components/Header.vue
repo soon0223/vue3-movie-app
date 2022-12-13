@@ -68,6 +68,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/scss/main";
 header {
     position: relative;
     display: flex;
