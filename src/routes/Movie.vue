@@ -78,7 +78,6 @@
 
 <script>
 import {mapState} from 'vuex'
-import { tSObjectKeyword } from '@babel/types'
 import Loader from '~/components/Loader'
 
 export default {
@@ -120,7 +119,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/scss/main";
 .container{
     padding-top: 40px;
 }
