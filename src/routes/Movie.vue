@@ -78,6 +78,7 @@
 
 <script>
 import {mapState} from 'vuex'
+import { tSObjectKeyword } from '@babel/types'
 import Loader from '~/components/Loader'
 
 export default {
